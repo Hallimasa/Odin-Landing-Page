@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 
+
 /* ------------------- header ------------------- */
 
 .header {
@@ -47,7 +48,7 @@ a {
 .h-bot-box1 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 4px 16px;
+    padding: 8px 36px;
     border-radius: 6px;
     margin-top: 12px;
     border-style: none;
@@ -88,6 +89,11 @@ a {
     border-radius: 16px;
 }
 
+.ri-container-cell-box > img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
 
 /* -------------------quote------------------- */
 
@@ -108,7 +114,7 @@ a {
 }
 
 #quotetext {
-    margin: 36px auto 0 auto;
+    margin: 72px auto 0 auto;
     width: 61vw;
     justify-content: center;
 }
@@ -119,8 +125,6 @@ a {
     margin: -50px auto 0 auto;
 }
 
-.quote-author p {
-}
 
 /* -------------------action------------------- */
 
@@ -130,8 +134,8 @@ a {
 }
 
 .a-container {
-    width: 61vw;
-    height: 140px;
+    width: 40vw;
+    height: auto;
     background-color: #3882F6;
     border-radius: 12px;
     margin: auto auto;
@@ -143,7 +147,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 80px;
-    margin: 36px 0;
+    margin: 32px 0;
 }
 
 button {
