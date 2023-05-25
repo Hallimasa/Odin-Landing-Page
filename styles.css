@@ -1,14 +1,13 @@
 body {
     font-family: 'Roboto',sans-serif;
-    background-color: rgb(45, 45, 45);
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
-/* header */
+/* ------------------- header ------------------- */
 
-.header-box {
+.header {
     background-color: #1F2937;
 }
 
@@ -17,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 15vw;
-    color:white;
+    color:#E5E7EB;
 }
 
 .h-top-button {
@@ -27,7 +26,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 .h-bot {
@@ -47,28 +46,27 @@ a {
 
 .h-bot-box1 button {
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     padding: 4px 16px;
     border-radius: 6px;
     margin-top: 12px;
     border-style: none;
 }
 
-/* randon info box*/
+/* -------------------randon info------------------- */
 
-.randominfo-box {
-    background-color: white;
+.randominfo {
     display:flex;
     flex-direction: column;
     align-items: center;
     height: 400px;
 }
 
-.ri-box-container {
+.ri-container {
     display: flex;
 }
 
-.ri-box-container > * {
+.ri-container > * {
     width: 130px;
     height: auto;
     text-align: center;
@@ -76,12 +74,12 @@ a {
     color: #1F2937;
 }
 
-.ri-box-cell {
+.ri-container-cell {
     width: 146px;
     margin: 0 24px;
 }
 
-.ri-box {
+.ri-container-cell-box {
     width: 146px;
     height: 146px;
     box-sizing: border-box;
@@ -91,7 +89,7 @@ a {
 }
 
 
-/* quote box */
+/* -------------------quote------------------- */
 
 .quote {
     background-color: #E5E7EB;
@@ -124,14 +122,53 @@ a {
 .quote-author p {
 }
 
-/* action-box */
+/* -------------------action------------------- */
 
-.action-box {
-    background-color: rgb(60, 60, 120);
+.action {
+    height: 400px;
+    display: flex;
 }
 
-/* footer */
+.a-container {
+    width: 61vw;
+    height: 140px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    margin: auto auto;
+}
 
-.footer-box {
+.a-container-cell {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 36px 0;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.a-container-cell button a {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: #E5E7EB 2px solid;
+    padding: 8px 36px;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+
+
+/* -------------------footer------------------- */
+
+.footer {
     background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
 }
